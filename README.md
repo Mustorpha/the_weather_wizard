@@ -36,9 +36,14 @@ cd Weather_App--Python-Django
 5. Install all the requirements using pip:
 ```bash
 pip install -r requirements.txt
+```
+
+6. Replace the api key with your openweather.org api key:
+```bash
+vim weather_api/key.py
 ``` 
 
-6.	Run server:
+7.	Run server:
 ```bash
 python manage.py runserver
 ```
